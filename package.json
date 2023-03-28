@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DATechnologies/react-fa-icon-picker.git"
+    "url": "git+https://github.com/hippocampus-lior/react-fa-icon-picker.git"
   },
   "author": "Cory McAboy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DATechnologies/react-fa-icon-picker/issues"
+    "url": "git+https://github.com/hippocampus-lior/react-fa-icon-picker/issues"
   },
-  "homepage": "https://github.com/DATechnologies/react-fa-icon-picker#readme",
+  "homepage": "git+https://github.com/hippocampus-lior/react-fa-icon-picker#readme",
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
