@@ -3,43 +3,50 @@
   "version": "1.0.3",
   "description": "An icon picker for font-awesome icons",
   "main": "dist/index.js",
+  "sideEffects": false,
   "scripts": {
+    "autobuild": "rollup -c -w",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
+    "pretest": "npm run build",
     "start": "rollup -c -w"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DATechnologies/react-fa-icon-picker.git"
+    "url": "git+https://github.com/hippocampus-lior/react-fa-icon-picker.git"
   },
   "author": "Cory McAboy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DATechnologies/react-fa-icon-picker/issues"
+    "url": "git+https://github.com/hippocampus-lior/react-fa-icon-picker/issues"
   },
-  "homepage": "https://github.com/DATechnologies/react-fa-icon-picker#readme",
+  "homepage": "git+https://github.com/hippocampus-lior/react-fa-icon-picker#readme",
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
+   "engines": {
+    "node": ">=12"
+  },
   "files": [
+    "src",
     "dist"
   ],
-  "devDependencies": {
-    "@types/react": "^16.9.38",
-    "@types/react-dom": "^16.9.8",
-    "@types/styled-components": "^5.1.0",
+ "devDependencies": {
+    "@types/react": "^18.0.30",
+    "@types/react-dom": "^18.0.11",
+    "@types/styled-components": "^5.1.26",
     "babel-core": "^6.26.3",
     "babel-runtime": "^6.26.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "rollup": "^2.17.1",
-    "rollup-plugin-typescript2": "^0.27.1",
-    "typescript": "^3.9.5"
+    "rollup": "^3.20.2",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^5.0.2"
   },
   "dependencies": {
-    "csstype": "^2.6.10",
-    "react-icons": "^3.10.0",
-    "styled-components": "^5.1.1"
+    "csstype": "^3.1.1",
+    "react-icons": "^4.8.0",
+    "styled-components": "^5.3.9"
   }
 }
