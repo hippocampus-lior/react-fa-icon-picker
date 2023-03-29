@@ -4,8 +4,10 @@
   "description": "An icon picker for font-awesome icons",
   "main": "dist/index.js",
   "scripts": {
+    "autobuild": "rollup -c -w",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
+    "pretest": "npm run build",
     "start": "rollup -c -w"
   },
   "repository": {
