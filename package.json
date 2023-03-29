@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
     "pretest": "npm run build",
-    "start": "rollup -c -w"
+    "start": "rollup -c -w",
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,9 @@
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+   "engines": {
+    "node": ">=12"
   },
   "files": [
     "src",
